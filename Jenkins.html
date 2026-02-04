@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>About Jenkins</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#0f172a;
+    color:#e5e7eb;
+}
+
+/* TOP SECTION */
+.top{
+    padding:5px 20px;
+    text-align:center;
+    background:linear-gradient(135deg,#2563eb,#1e40af);
+}
+
+.top h1{
+    font-size:48px;
+    margin-bottom:10px;
+}
+
+.top p{
+    font-size:18px;
+    opacity:0.9;
+}
+
+/* CONTENT */
+.main{
+    max-width:1100px;
+    margin:auto;
+    padding:50px 20px;
+}
+
+.box{
+    background:#111827;
+    padding:30px;
+    border-radius:14px;
+    margin-bottom:30px;
+    border:1px solid #1f2937;
+    transition:0.3s;
+}
+
+.box:hover{
+    border-color:#3b82f6;
+    transform:scale(1.02);
+}
+
+.box h2{
+    color:#60a5fa;
+    margin-bottom:12px;
+}
+
+.box p{
+    line-height:1.7;
+    font-size:16px;
+}
+
+/* STEPS */
+.steps{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.step{
+    background:#020617;
+    padding:25px;
+    border-radius:12px;
+    text-align:center;
+}
+
+.step span{
+    display:block;
+    font-size:30px;
+    color:#3b82f6;
+    margin-bottom:10px;
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:25px;
+    background:#020617;
+    font-size:14px;
+    color:#9ca3af;
+}
+</style>
+</head>
+
+<body>
+
+<div class="top">
+    <h1>Jenkins</h1>
+    <p>Powering Continuous Integration and Delivery</p>
+</div>
+
+<div class="main">
+
+    <div class="box">
+        <h2>About Jenkins</h2>
+        <p>
+            Jenkins is an open-source automation server used in DevOps.
+            It helps automate software build, testing, and deployment processes,
+            making software delivery faster and more reliable.
+        </p>
+    </div>
+
+    <div class="box">
+        <h2>Why Jenkins is Used</h2>
+        <p>
+            Jenkins reduces manual work by automating repetitive tasks.
+            It provides early error detection, improves software quality,
+            and increases productivity of development teams.
+        </p>
+    </div>
+
+    <div class="box">
+        <h2>Jenkins Workflow</h2>
+        <div class="steps">
+            <div class="step">
+                <span>1</span>
+                <p>Developer commits code</p>
+            </div>
+            <div class="step">
+                <span>2</span>
+                <p>Jenkins builds & tests</p>
+            </div>
+            <div class="step">
+                <span>3</span>
+                <p>Automatic deployment</p>
+            </div>
+            <div class="step">
+                <span>4</span>
+                <p>Continuous monitoring</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <h2>Jenkins in DevOps</h2>
+        <p>
+            Jenkins acts as a core DevOps tool by integrating with Git,
+            Docker, cloud platforms, and other tools to ensure smooth
+            CI/CD pipelines and faster releases.
+        </p>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 | Jenkins | DevOps Automation Tool
+</footer>
+
+</body>
+</html>
